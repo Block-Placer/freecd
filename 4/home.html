@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation Page</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 50px 0;
+    color: #333;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgba(85, 186, 252, 0.97);
+    overflow: hidden;
+  }
+
+  ul li {
+    float: left;
+    margin: 0 10px;
+  }
+
+  ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 108px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  ul li a:hover {
+    background-color: #4847f2;
+  }
+
+  div {
+    margin: 50px 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  div img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  div img:hover {
+    transform: scale(1.05);
+  }
+
+  p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #55bafc;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+  }
+
+  button:hover {
+    background-color: #4847f2;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 50px 0;
+  }
+
+  .image-row div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .image-row p {
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="History.html">History</a></li>
+  <li><a href="GPS.html">GPS</a></li>
+  <li><a href="Stars.html">Stars</a></li>
+  <li><a href="Compass.html">Compass</a></li>
+</ul>
+
+<h1>Navigation</h1>
+
+
+<div>
+  <img src="https://as1.ftcdn.net/jpg/04/80/76/20/1000_F_480762061_pEuN4Q9Dr9XgrK5nBh1WQ0xVekLV9l51.jpg" alt="GPS Image">
+  <div style="display:flex; flex-direction:column; gap:15px; max-width:500px;">
+    <p>
+      GPS, or Global Positioning System, is a satellite-based navigation system that allows 
+      users to determine their precise location anywhere on Earth. It is widely used in 
+      navigation, mapping, transportation, and many everyday applications like smartphones 
+      and cars.
+    </p>
+    <a href="GPS.html"><button>Learn More</button></a>
+  </div>
+</div>
+
+<div>
+  <div style="display:flex; flex-direction:column; gap:15px; max-width:500px;">
+    <p>
+      Navigation is the art and science of determining the position and course of a ship, aircraft, or vehicle. Early humans navigated using landmarks, stars, and the Sun. Ancient civilizations like the Phoenicians, Greeks, and Polynesians developed methods for long-distance sea travel. The invention of the compass, maps, and later GPS revolutionized navigation, allowing accurate and global positioning for exploration, trade, and modern transportation.
+    </p>
+    <a href="History.html"><button>Learn More</button></a>
+  </div>
+  <img src="https://media.istockphoto.com/id/1576726487/vector/old-vintage-map-of-mediterranean-sea-pirate-sail.jpg?s=612x612&w=0&k=20&c=k79L1RAmm1rn1ZY8UxXG6uJx0GWr5-yr4cayDstMY5w=" alt="History Image">
+</div>
+
+  <div class="image-row">
+  <div>
+    <img src="https://images.stockcake.com/public/e/1/1/e11c8779-33c7-456b-acbb-de7d58c60874_large/starry-night-sky-stockcake.jpg" alt="Stars">
+    <p>Stars</p>
+    <a href="Stars.html"><button>Learn More</button></a>
+  </div>
+  <div>
+    <img src="https://www.shutterstock.com/image-photo/vintage-brass-compass-weathered-patina-600w-2501545329.jpg" alt="Compass">
+    <p>Compass</p>
+     <a href="Compass.html"><button>Learn More</button></a>
+  </div>
+</div>
+
+</body>
+</html>
