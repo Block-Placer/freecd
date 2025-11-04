@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)http://10.0.8.141:5500/2D%20Animation%20Website/Homepage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2D Animation</title>
+  <link href="./Homepage_files/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./Homepage_files/Homepage.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://10.0.8.141:5500/2D%20Animation%20Website/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://10.0.8.141:5500/2D%20Animation%20Website/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://10.0.8.141:5500/2D%20Animation%20Website/favicon-16x16.png">
+  <link rel="manifest" href="http://10.0.8.141:5500/2D%20Animation%20Website/site.webmanifest">
+</head>
+<body>
+
+<input type="checkbox" id="menu-toggle">
+
+<header>
+  <label for="menu-toggle" class="menu-icon"></label>
+  <a href="http://10.0.8.141:5500/2D%20Animation%20Website/Homepage.html">
+    <img src="./Homepage_files/Logo.png" alt="Logo" class="logo">
+  </a>
+</header>
+
+<nav class="sidebar">
+  <a href="http://10.0.8.141:5500/2D%20Animation%20Website/Homepage.html">2D Animation</a>
+  <a href="http://10.0.8.141:5500/2D%20Animation%20Website/Decline.html">Decline</a>
+  <a href="http://10.0.8.141:5500/2D%20Animation%20Website/Benefits.html">Benefits</a>
+  <a href="http://10.0.8.141:5500/2D%20Animation%20Website/Movies.html">Movies</a>
+  <a href="http://10.0.8.141:5500/2D%20Animation%20Website/TakeAction.html">Take Action</a>
+  <a href="http://10.0.8.141:5500/2D%20Animation%20Website/Contact.html">Contact</a>
+</nav>
+
+<label for="menu-toggle" class="overlay"></label>
+
+<div class="center">
+  <h1>2D Animation</h1>
+</div>
+
+<div class="image1">
+  <img src="./Homepage_files/Mufasa.png" alt="Mufasa" width="249" height="300">
+</div>
+<div class="image2">
+  <img src="./Homepage_files/pinocchio.png" alt="Pinocchio" width="200" height="275">
+</div>
+<div class="image3">
+  <img src="./Homepage_files/snow white.png" alt="Snow White" width="150" height="375">
+</div>
+<div class="image4">
+  <img src="./Homepage_files/MickyMouse.png" alt="mickey Mouse" width="250" height="250">
+</div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<template id="auto-clicker-autofill-popup"></template>
+<template id="auto-clicker-autofill-popup-tr"></template>
+</body></html>
