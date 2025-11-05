@@ -14,8 +14,8 @@
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #d7e1ec, #f8f9fb);
-      color: #333;
+      background: linear-gradient(135deg, #0d1117, #161b22);
+      color: #e6edf3;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -24,11 +24,12 @@
 
     header {
       width: 100%;
-      background: #222;
-      color: white;
+      background: #0d1117;
+      color: #e6edf3;
       text-align: center;
       padding: 1rem 0;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+      border-bottom: 1px solid #30363d;
     }
 
     header h1 {
@@ -48,37 +49,42 @@
     }
 
     .card {
-      background: white;
+      background: #161b22;
       border-radius: 16px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
       padding: 1.5rem;
       text-align: center;
       cursor: pointer;
-      border: 2px solid transparent;
+      border: 1px solid #30363d;
     }
 
     .card:hover {
       transform: translateY(-5px);
-      border-color: #007bff;
-      box-shadow: 0 8px 20px rgba(0, 123, 255, 0.2);
+      border-color: #58a6ff;
+      box-shadow: 0 8px 20px rgba(88, 166, 255, 0.3);
     }
 
     .card a {
       text-decoration: none;
-      color: #007bff;
+      color: #58a6ff;
       font-weight: 600;
       font-size: 1.1rem;
+      display: inline-block;
     }
 
     .card a:hover {
-      color: #0056b3;
+      color: #79c0ff;
+      text-shadow: 0 0 8px rgba(88, 166, 255, 0.6);
     }
 
     footer {
       text-align: center;
-      color: #888;
+      color: #8b949e;
       font-size: 0.9rem;
       padding: 1rem;
+      border-top: 1px solid #30363d;
+      width: 100%;
+      margin-top: auto;
     }
   </style>
 </head>
@@ -97,7 +103,7 @@
   </main>
 
   <footer>
-    &copy; 2025 BlockServers
+    &copy; BlockServers.net
   </footer>
 </body>
 </html>
